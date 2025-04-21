@@ -1,0 +1,27 @@
+
+{
+  "name": "neuro-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.12",
+    "@solana/wallet-adapter-react": "^0.15.17",
+    "@solana/wallet-adapter-react-ui": "^0.10.8",
+    "@solana/wallet-adapter-wallets": "^0.18.0",
+    "@solana/web3.js": "^1.76.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
